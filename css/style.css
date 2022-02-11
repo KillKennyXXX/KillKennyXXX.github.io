@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'framd';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 body{
   font-family:sans-serif;  
 }
@@ -62,6 +72,15 @@ box-shadow: 0 0 10px 100px orange inset;
     line-height: 60px;
     padding-left: 20%;
     float: left;
+    -webkit-animation: comming 2s ease ; 
+    -o-animation: comming 2s ease ; 
+    animation: comming 2s ease ; 
+    font-family: 'framd';
+}
+
+.custom-css3{
+    font-size: 40px;
+    color: red;
 }
 
 .menu{
