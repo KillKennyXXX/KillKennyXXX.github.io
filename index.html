@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Эта моя первая страница">  
+    <meta name="description" content="Свадьба Кристины и Максима">  
     <meta name="author" content="Алексей">  
     <meta content="robots" content="all">
-    <meta property="og.title" content="Эта моя первая страница">
-    <title>Урок 2 Html</title>
+    <meta property="og.title" content="Кристина и Максим, 7 сентября 2022 | 16:00">
+    <title>Кристина и Максим, 7 сентября 2022 | 16:00
+        </title>
     <link rel="stylesheet" href="css/reset.css" >
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -14,168 +15,230 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
 </head>
  <body>
+   
   <header>
-      <nav>
-          <div class="logo">Андрей Браун</div>
-          <div class="menu"> <ul>
-            <li><a href="#">Обо мне </a></li> 
-            <li><a href="#">Услуги </a></li>   
-            <li><a href="#">Кейсы </a></li>   
-            <li><a href="#">Правйс </a></li> 
-            <li><a href="#">Отзывы </a></li>     
-            <li><a href="#">Контакты </a></li>    
-          </ul></div>
-      </nav>
-  </header>  
-  <main>
-  <section class="main">
-         <div class="title__container">
-          <h1>Привет <br>Я Андрей Браун</h1>
-          <h4><i class="fa fa-css3 custom-css3" aria-hidden="true"></i>
-              Фулл стек веб-разработчик и Android-разработчик</h4>
-          <input type="button" value="Обо мне" name="about">
-          <input type="button"  value="Мои работы" name="proj">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">  <a class="nav-link" href="#">В начало</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Дресс код</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Место проведения</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Трансфер</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Где остановиться?</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Подарки</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Опросник</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Обратная связь</a>   </li>
+            </ul>
+        </div>
+           
+          
+         <div class="col-5 d-flex d-lg-none flex-column  dropdown">
+        <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        Навигация
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">В начало</a></li>
+           <li><a class="dropdown-item" href="#">Дресс код</a></li> 
+           <li><a class="dropdown-item" href="#">Место проведения</a></li>   
+           <li><a class="dropdown-item" href="#">Трансфер</a></li>   
+           <li><a class="dropdown-item" href="#">Где остановиться?</a></li> 
+           <li><a class="dropdown-item" href="#">Подарки</a></li>     
+           <li><a class="dropdown-item" href="#">Опросник</a></li>    
+           <li><a class="dropdown-item" href="#">Обратная связь</a></li>  
+        </ul>
+      </div>
+          
+          
+      </div>
+      </div>
+    </nav>
+</header>   
+  
+  
+  
+  
+  
+  
+
+
+<div class="container-fluid" >
+  <div class="container main py-5">
+    <div class="section">
+    
+    <div class="row mt-5">
+      <div class="col-sm"></div>
+          <div class="col-auto text-center">
+              <div class="h1 weight text-center" id="text">Кристина и Максим </div>
+              <div class="h2">7 сентября 2022 | 16:00</div>
+              </div>
+          <div class="col-sm"></div>
+          
           </div>
-     </section>  
-   </main>    
-     <div class="about">
-      <h2>ОБО МНЕ</h2>
-      <img src="img/about_myphoto.png" alt="Посмотрите на мою фотографию!">
-      <div class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aut, sint sit omnis placeat cumque illum hic eaque. Voluptate ratione dignissimos quae, veniam in nemo delectus vero sapiente quaerat nisi.</div>
-      <div class="about_text">Quidem, possimus rerum debitis. Deleniti sapiente velit pariatur autem debitis illum repellat, officiis. Laborum ab minima minus iste quo voluptate tempora saepe quasi ipsam natus. Quaerat consectetur unde, tenetur provident.</div>
-      <input type="button" value="Скачать резюме" name="download">
-     </div>
-
-     <div class="skills">
-       <h2>ЧТО Я УМЕЮ</h2>
-       <ul>
-        <li><img src="img/skills_nout.png" alt="">
-            <div class="skills_label">Веб-дизайн</div>
-            <div class="skills_text">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. </div></li>   
-        <li><img src="img/skills_znak.png" alt="">
-            <div class="skills_label">Разработка</div>
-            <div class="skills_text">Lorem ipsum dolor sit amet placerat facilisis mi in tempus eleifend pellentesque.</div></li>
-        <li><img src="img/skills_rocket.png" alt="">
-            <div class="skills_label">СЕО-Оптимизация</div>
-            <div class="skills_text">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</div></li>    
-        <li><img src="img/skills_gramophone.png" alt=""> 
-            <div class="skills_label">Маркетинг</div>
-            <div class="skills_text">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque .</div></li> </ul>        
-     </div>
-
-     <div class="cases">
-      <h2>КЕЙСЫ</h2>
-         <div class="cases_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</div>
-      <img src="img/cases_img.jpg" alt="">
-       <div class="cases_info"><span><h3>CLIENT:</h3><h6>Какая-то компания</h6><h3>WEBSITE:</h3><h6>http://www.somedomain.com</h6></span>
-       <span><h3>Название проекта</h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
-
-           <p><input type="button" value="VISIT LIVE SITE" name="Visit" ></p></div>
-     </div>
-
-    <div class="price">
-      <h3>Расчет стоимости</h3>
-      <div class="price_unit">
-          <h4>ТИП САЙТА</h4>
-             <div class="price_select">
-             <select name="price_type">
-              <option>Выберите пункт</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-                 </select></div>
-      </div>
-      <div class="price_unit">
-          <h4>ДИЗАЙН</h4>
-         <div class="price_select"> 
-          <select name="price_design">
-              <option>Выберите пункт</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-             </select></div>
-      </div>
-      <div class="price_unit">
-          <h4>АДАПТИВНОСТЬ</h4>
-             <p><select name="price_adapt">
-              <option>Выберите пункт</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-             </select></p>
-      </div>
-      <div class="price_itog">
-         <div class="price_l">Сроки</div> <div class="price_r">0</div>
-         <div class="price_l">Стоимость</div> <div class="price_r">0</div>
-       </div>
     </div>
-
-     <div class="stat">
-      <h2>НЕМНОГО СТАСТИСТИКИ</h2><ul>
-        <li><img src="img/stat_smile.png" alt="">
-            <div class="stat_label">120</div>
-            <div class="stat_text">СЧАСТЛИВЫХ КЛИЕНТОВ</div></li>   
-        <li><img src="img/stat_znak.png" alt="">
-            <div class="stat_label">4,600</div>
-            <div class="stat_text">ЧАСОВ РАБОТЫ</div></li>   
-        <li><img src="img/stat_check.png" alt="">
-            <div class="stat_label">340</div>
-            <div class="stat_text">ПРОЕКТОВ ЗАВЕРШЕНО</div></li>   
-        <li><img src="img/stat_cup.png" alt="">
-            <div class="stat_label">23</div>
-            <div class="stat_text">НАГРАД ПОЛУЧЕНО</div></li>  </ul> 
-     </div>
-
-     <div class="reviews">
-      <h2>ОТЗЫВЫ</h2>
-      <br>
-      <img src="img/reviews_img.png" alt="">
-      <div class="reviews_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</div>
-      <div class="reviews_text">Михаил, Ген директор ПАО “Газпром”.</div>
-      <div class="reviews_radio">
-      <input name="reviews_rb" type="radio" value="1">
-      <input name="reviews_rb" type="radio" value="2">
-      <input name="reviews_rb" type="radio" value="3">
-         </div>
-     </div>
-
-     <div class="contacts">
-      <h2>МОИ КОНТАКТЫ</h2>
-      <div class="contacts_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</div>
-      <div class="contacts_item"><li><img src="img/contacts_geo.png" alt="">
-          <div class="contacts_label">Санкт-Петербург<br>Невский проспект 11</div></li>   
-      <li><img src="img/contacts_conv.png" alt="">
-          <div class="contacts_label">info@companyname.com</div></li>  
-      <li><img src="img/contacts_tel.png" alt="">
-          <div class="contacts_label">+7 999 999-99-99</div></li> </div> 
-      <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>  
-     <div class="contacts_data"> <input type="text" name="fio" value="Имя">
-      <input type="email" name="email" value="Email"> </div>
-     <div class="contacts_info"><textarea name="message" >Сообщение</textarea></div>
-     <input type="button" value="Отправить" name="send">
-      <div class="contacts_social"><ul>
-         <li><img src="img/contacts_fb.png" alt=""></li>    
-         <li><img src="img/contacts_tvit.png" alt=""></li>    
-         <li><img src="img/contacts_ball.png" alt=""></li>    
-         <li><img src="img/contacts_git.png" alt=""></li>    
-         <li><img src="img/contacts_inst.png" alt=""></li>    
-         <li><img src="img/contacts_in.png" alt=""></li>  </ul>  
+  
+<div class="section">
+ 
+  <div class="row  mt-5" >
+      <div class="col-sm">
+          <img src="img/fon.jpeg" class="img-fluid" height="600px" alt="...">
       </div>
-     </div>
+      <div class="col-1"></div>
+      <div class="col-sm text-center my-5" id="text2">
+      
+          Мы от всего сердца желаем, чтобы вы были вместе с нами в день нашей свадьбы - очень важный и незабываемый день в нашей жизни!
 
-     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288658.4805107268!2d37.10535600406253!3d55.582094688199454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1643457739893!5m2!1sru!2sru" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-     </div>
+  Просим вас подтвердить свое присутствие до 31 июля 2022 г.
 
-     <div class="copyright">
-      <h4>Copyright © 2021 Андрей Браун. Design by Web</h4>
-     </div>
+  <br><br>
+  Подтверждаю
+  <form>
+ <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Ф.И.О." aria-label="username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Отправить</button>
+</div>
+ </form>
+<div class="menu1">
+ <ul class="nav flex-column">
+  <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Дресс код</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Место проведения</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Трансфер</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Где остановиться?</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Подарки</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Опросник</a></li>
+  <li class="nav-item"><a class="nav-link" href="#">Обратная связь</a></li>
+</ul>
+</div>
+      </div>
+      <div class="col-2" ></div>
+  </div>
+  
+  </div>
 
+
+  <div class="section razdel">
+    <div class="row  my-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Дресс код</div>
+        Для мужчин: костюм и галстук крайне желательны.
+        Примеры:  https://bespokeunit.com/suits/dress-codes/black-tie-optional/
+        
+        Для женщин: вечерние наряды в пол или коктейльные платья.
+        Примеры: https://www.theknot.com/content/what-to-wear-formal-black-tie-optional-black-tie-invited
+        
+
+
+      </div>
+
+    </div>
+  </div>   
+
+
+  <div class="section razdel">
+    <div class="row  my-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Место проведения</div>
+        Резиденция «Шенонсо»  
+        www.chenonceau.ru
+        
+        МО, Красногорский р-н, дер. Козино, ул. Школьная, 121
+        
+        Посмотреть на карте
+        (при нажатии переход на карту)
+        
+      </div>
+
+    </div>
+  </div>   
+
+  <div class="section razdel">
+    <div class="row  mt-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Трансфер</div>
+        Трансфер будет организован в обе стороны – на место проведения мероприятия и обратно. 
+        Точное время и место трансфера мы сообщим непосредственно перед свадьбой. Пожалуйста, следите за обновлениями на сайте.
+        
+
+
+      </div>
+
+    </div>
+  </div>   
+
+
+  <div class="section razdel">
+    <div class="row  mt-5" >
+      <div class="col-sm text-center">
+        <div class="h2"> Где остановиться?</div>
+        Мы договорились с гостиницей Аппарт-отель “На высоте” www.navysote.moscow о специальной стоимости номеров для наших гостей. Для того, чтобы проверить стоимость и забронировать гостиницу, просим вас направить запрос по электронной почте info@navysote.moscow или в вацап +7 925 499-89-20. Промо код “МК2022”. 
+        Пожалуйста, обратите внимание на условия отмены броней.
+        Вы также можете забронировать любую другую понравившуюся вам гостиницу. Предварительно, планируется 2 места сбора гостей для трансфера на свадьбу - г. Москва, ул. Мосфильмовская, д.74Б и Станция метро «Митино».
+        
+      </div>
+
+    </div>
+  </div>   
+  <div class="section razdel">
+    <div class="row  mt-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Подарки</div>
+        Самый желанный подарок в столь особый и радостный для нас день - это ваше присутствие на нашем празднике. Однако, если вы пожелаете сделать дополнительный подарок, просим вас учесть, что нам придется вести подарки в Париж и наш багаж ограничен 20ю килограммами, поэтому, пожалуйста, не выбирайте ничего тяжелого и большого. 
+        Мы очень любим цветы, но, просим вас не дарить нам букеты, так как, сразу после свадьбы мы отправимся в свадебное путешествие на Камчатку и не успеем насладиться их красотой. 
+        
+
+
+      </div>
+
+    </div>
+  </div>   
+
+
+  <div class="section razdel">
+    <div class="row  mt-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Опросник</div>
+        Мы будем очень признательны, если вы поможете нам сделать праздник лучше для вас. Для этого, просим вас ответить на несколько вопросов:
+        Форма
+         (отправляется автоматически на адрес mgergedava@gmail.com)
+        Вопрос	Ответ
+        1.	ФИО	
+        2.	Контактный телефон и электронный адрес	
+        3.	Планируете ли вы воспользоваться услугой трансфера или приедете на свадьбу самостоятельно?	
+        4.	Если вы приезжаете из другого города или страны, желаете ли вы, чтобы мы организовали для вас обзорную экскурсию по Москве накануне свадьбы (6 сентября 2022)? 	
+        5.	Вы поможете нам составить наиболее привлекательную музыкальную программу, если напишете название одной или нескольких из ваших любимых музыкальных композиций. 	
+        6.	Какие алкогольные напитки вы предпочитаете: шампанское, белое вино, красное вино, водка, виски?	
+        7.	Если мы что-то не учли или у вас есть дополнительные вопросы, пожалуйста, напишите здесь.  	
+        
+      </div>
+
+    </div>
+  </div>   
+
+  <div class="section razdel">
+    <div class="row  mt-5" >
+      <div class="col-sm text-center">
+        <div class="h2">Обратная связь</div>
+        Если вам удобнее общаться с кем-то из нас напрямую, то ниже прилагаем наши контакты WhatsApp:
+        Максим +33 6 12 60 65 80
+        Кристина +33 7 58 54 95 31
+        Инна (мама Максима) +7 902 3141535
+        Марина (мама Кристины) +7 903 1009207
+        Телефон для связи в день мероприятия мы сообщим вам дополнительно.
+        
+        www.amb-events.com
+        
+      </div>
+
+    </div>
+  </div>      
+    
+
+</div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/myScript.js"></script>
  </body>
 </html>
