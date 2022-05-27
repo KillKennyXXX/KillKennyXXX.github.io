@@ -6,7 +6,7 @@
     font-family: Mfont;
     src: url("../fonts/BOD_CR.otf");
  }
- .h2 {
+ .h3 {
     color: rgb(177, 30, 30);
  }
   #text
@@ -15,28 +15,14 @@
   font-size: 60px;
   color: rgb(177, 30, 30);
   }
-  #text2
-  {
-  font-family: Nfont;
-  font-size: 20px;
-  }
+  
 
-  #text3
-  {
-  font-family: Nfont;
-  font-size: 20px;
- 
-  }
 
-#main {
-    background: url(../img/most-aleksandra-iii-la-tour-eiffel-parizh-franciya-ejfeleva-bashnya-gorod-fonari-most-arxitektura.jpg) center/cover no-repeat;
-
-}
 
 
 
 .razdel{
-    margin-top: 200px;
+    margin-top: 50px;
 }
 .menu1{
     margin-top: 100px;
