@@ -1,13 +1,16 @@
 @font-face
   {
   font-family: Nfont;
-  src: url("../fonts/21024.otf");
-  }
-
+  src: url("../fonts/Oswald.otf");
+ 
+    font-family: Mfont;
+    src: url("../fonts/BOD_CR.otf");
+ }
   #text
   {
-  font-family: Nfont;
+  font-family: Mfont;
   font-size: 60px;
+  color: rgb(177, 30, 30);
   }
   #text2
   {
