@@ -6,6 +6,9 @@
     font-family: Mfont;
     src: url("../fonts/BOD_CR.otf");
  }
+ .h2 {
+    color: rgb(177, 30, 30);
+ }
   #text
   {
   font-family: Mfont;
@@ -22,6 +25,7 @@
   {
   font-family: Nfont;
   font-size: 20px;
+ 
   }
 
 #main {
