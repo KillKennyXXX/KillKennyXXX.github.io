@@ -15,10 +15,17 @@
   font-size: 60px;
   color: rgb(177, 30, 30);
   }
-  
+  .h4{
+    font-family: Mfont;
+  }
 
+  .h5{
+    font-family: Mfont;
+  }
 
-
+#faq{
+  font-family: Mfont;
+}
 
 
 .razdel{
