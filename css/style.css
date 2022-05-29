@@ -9,6 +9,8 @@
  .h3 {
     color: rgb(177, 30, 30);
  }
+ .transfer2{display:none;}
+ 
   #text
   {
   font-family: Mfont;
@@ -34,3 +36,14 @@
 .menu1{
     margin-top: 100px;
 }
+
+
+@media (max-width: 768px) { 
+ 
+  #text
+  {
+  font-size: 60px;
+  }
+  .transfer2{display:block;}
+  .transfer{display:none;}
+ }
