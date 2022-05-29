@@ -10,7 +10,7 @@
     color: rgb(177, 30, 30);
  }
  .transfer2{display:none;}
- 
+
   #text
   {
   font-family: Mfont;
@@ -42,7 +42,7 @@
  
   #text
   {
-  font-size: 60px;
+  font-size: 55px;
   }
   .transfer2{display:block;}
   .transfer{display:none;}
