@@ -38,11 +38,11 @@
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 800px) { 
  
   #text
   {
-  font-size: 55px;
+  font-size: 60px;
   }
   .transfer2{display:block;}
   .transfer{display:none;}
