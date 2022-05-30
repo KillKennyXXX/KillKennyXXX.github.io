@@ -1,13 +1,19 @@
 @font-face
-  {
-  font-family: Nfont;
-  src: url("../fonts/Oswald.otf");
- 
-    font-family: Mfont;
-    src: url("../fonts/BOD_CR.otf");
- }
- .h3 {
+  {  font-family: Lfont;
+    src: url("../fonts/Oswald-Light.otf");  }
+
+@font-face
+    {   font-family: Nfont;
+  src: url("../fonts/Oswald.otf");    }
+
+@font-face
+  {font-family: Mfont;
+    src: url("../fonts/BOD_CR.otf");}
+ .h2 {
     color: rgb(177, 30, 30);
+    font-weight: bolder;
+    font-family: Lfont;
+    text-transform: uppercase;
  }
  .transfer2{display:none;}
 
@@ -18,15 +24,19 @@
   color: rgb(177, 30, 30);
   }
   .h4{
-    font-family: Mfont;
+    font-family: Lfont;
+    
   }
-
+  .h3{
+    font-family: Lfont;
+    
+  }
   .h5{
-    font-family: Mfont;
+    font-family: Lfont;
   }
 
 #faq{
-  font-family: Mfont;
+  font-family: Lfont;
 }
 
 
@@ -45,4 +55,7 @@
   }
   .transfer2{display:block;}
   .transfer{display:none;}
+ }
+ .nav-link{
+  text-transform: uppercase;
  }
