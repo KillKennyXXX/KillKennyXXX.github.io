@@ -55,7 +55,12 @@
   }
   .transfer2{display:block;}
   .transfer{display:none;}
+
+  .logo{display:block;}
  }
  .nav-link{
   text-transform: uppercase;
  }
+ @media (min-width: 769px) {
+  .logo{display:inline;}
+ } 
