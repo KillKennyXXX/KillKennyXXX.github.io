@@ -9,6 +9,9 @@
 @font-face
   {font-family: Mfont;
     src: url("../fonts/BOD_CR.otf");}
+@font-face
+    {font-family: Kfont;
+      src: url("../fonts/Piazzolla.otf");}   
  .h2 {
     color: rgb(177, 30, 30);
     font-weight: bolder;
