@@ -1,6 +1,33 @@
 
 $(document).ready(function(){
 
+$('form').submit(function (event) {
+    event.preventDefault();
+  
+    var actionUrl = $(this).attr('action');
+      $.ajax({
+        type: "POST",
+        url: actionUrl,
+        data: $(this).serialize()      
+    }).done(function () {
+        $(this).find("input").val("");
+        alert("Письмо отправлено");
+        $('form').trigger("reset");
+    });
+    return false;
+});
+
+
+
+
+
+
+
+
+
+
+
+
     $(window).scroll(() =>  {
     let scrollDistance = $(window).scrollTop();
     $(".section").each((i, el) => {
